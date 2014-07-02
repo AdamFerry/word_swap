@@ -1,5 +1,9 @@
 WordSwap::Application.routes.draw do
-  get "static_pages/home"
+   get "static_pages/home"
+   #root  'static_pages#home'
+   post '/static_pages/home' => 'static_pages#swapped'
+   
+   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

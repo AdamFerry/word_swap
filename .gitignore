@@ -9,6 +9,9 @@
 /log/*.log
 /tmp
 
+# Ignore Wordnik initializer files
+/config/initializers/wordnik.rb
+
 # Ignore other unneeded files.
 database.yml
 doc/
